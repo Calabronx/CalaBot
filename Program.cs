@@ -8,7 +8,7 @@ namespace CalaFirstBot
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "MTEwMjYwNTc4NzEwMjE4MzQzNA.GgQfj-._WWf1eu3zXMCJVMZV4_RPdVVh6ucDhGrsN4t6U",
+                Token = "test",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged | DiscordIntents.MessageContents
             });
